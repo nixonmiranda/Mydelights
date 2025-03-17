@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyDelights - Restaurante</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- 🔹 Pantalla de Bienvenida -->
+    <section id="inicio" class="pantalla-inicio">
+        <div class="fondo"></div>
+        <div class="contenido">
+            <h1>Bienvenidos a MyDelights</h1>
+            <p>Disfruta de los mejores platos con ingredientes frescos y deliciosos.</p>
+            <nav class="menu-nav">
+                <button onclick="scrollToSection('menu')">Menú</button>
+                <button onclick="scrollToSection('servicios')">Servicios</button>
+                <button onclick="scrollToSection('cotizar')">Cotizar</button>
+                <button onclick="scrollToSection('registro')">Registro</button>
+            </nav>
+        </div>
+    </section>
+
+    <!-- 🔹 Sección del Menú -->
+    <section id="menu" class="seccion">
+        <h2>Menú de Platos especiales</h2>
+        <div class="platos">
+            <div class="plato">
+                <img src="img/bandeja paisa.jpg" alt="Bandeja Paisa">
+                <h3>Bandeja Paisa</h3>
+                <p>Ingredientes: Frijoles, arroz, carne molida, chicharrón...</p>
+                <p>Precio: $25,000</p>
+            </div>
+            <div class="plato">
+                <img src="img/ajiaco.jpg" alt="Ajiaco">
+                <h3>Ajiaco</h3>
+                <p>Ingredientes: Pollo, papa criolla, mazorca...</p>
+                <p>Precio: $22,000</p>
+            </div>
+            <div class="plato">
+                <img src="img/cazuela.jpg" alt="Cazuela de Mariscos">
+                <h3>Cazuela de Mariscos</h3>
+                <p>Ingredientes: Mariscos frescos, crema de leche, verduras...</p>
+                <p>Precio: $30,000</p>
+            </div>
+        </div>
+    </section>
+
+    
+    </section>
+    <!-- 🔹 Sección de Sopas -->
+<section id="sopas" class="seccion">
+    <h2>Menú de Sopas</h2>
+    <div class="platos">
+        <div class="plato">
+            <img src="img/sancocho.jpg" alt="Sancocho">
+            <h3>Sancocho</h3>
+            <p>Ingredientes: Pollo, yuca, plátano, papa, mazorca...</p>
+            <p>Precio: $18,000</p>
+        </div>
+        <div class="plato">
+            <img src="img/sopa de lentejas.jpg" alt="Sopa de Lentejas">
+            <h3>Sopa de Lentejas</h3>
+            <p>Ingredientes: Lentejas, zanahoria, cebolla, ajo...</p>
+            <p>Precio: $15,000</p>
+        </div>
+        <div class="plato">
+            <img src="img/sopa de pescado.jpg" alt="Sopa de Pescado">
+            <h3>Sopa de Pescado</h3>
+            <p>Ingredientes: Pescado fresco, papa, cilantro...</p>
+            <p>Precio: $20,000</p>
+        </div>
+    </div>
+</section>
+<!-- 🔹 Sección de Principios -->
+<section id="principios" class="seccion">
+    <h2>Menú de Principios</h2>
+    <div class="platos">
+        <div class="plato">
+            <img src="img/arroz con coco.jpg" alt="Arroz con Coco">
+            <h3>Arroz con Coco</h3>
+            <p>Ingredientes: Arroz, coco rallado, azúcar...</p>
+            <p>Precio: $10,000</p>
+        </div>
+        <div class="plato">
+            <img src="img/patacon.jpg" alt="Patacones">
+            <h3>Patacones</h3>
+            <p>Ingredientes: Plátano verde, sal, aceite...</p>
+            <p>Precio: $8,000</p>
+        </div>
+        <div class="plato">
+            <img src="img/ensalada.jpg" alt="Ensalada Fresca">
+            <h3>Ensalada Fresca</h3>
+            <p>Ingredientes: Lechuga, tomate, zanahoria...</p>
+            <p>Precio: $7,000</p>
+        </div>
+    </div>
+</section>
+
+<!-- 🔹 Sección de Carnes -->
+<section id="carnes" class="seccion">
+    <h2>Menú de Carnes</h2>
+    <div class="platos">
+        <div class="plato">
+            <img src="img/bistek.jpg" alt="Bistec a la Criolla">
+            <h3>Bistec a la Criolla</h3>
+            <p>Ingredientes: Carne de res, tomate, cebolla...</p>
+            <p>Precio: $22,000</p>
+        </div>
+        <div class="plato">
+            <img src="img/churrasco.jpg" alt="Churrasco">
+            <h3>Churrasco</h3>
+            <p>Ingredientes: Carne de res a la parrilla...</p>
+            <p>Precio: $28,000</p>
+        </div>
+        <div class="plato">
+            <img src="img/pollo asado.jpg" alt="Pollo Asado">
+            <h3>Pollo Asado</h3>
+            <p>Ingredientes: Pollo marinado, especias...</p>
+            <p>Precio: $20,000</p>
+        </div>
+    </div>
+</section>
+
+ 
+
+    <!-- 🔹 Sección de Servicios Adicionales -->
+    <section id="servicios" class="seccion">
+        <h2>Servicios Adicionales</h2>
+        <div class="servicios">
+            <div class="servicio">
+                
+                <h3>Banquetes</h3>
+                <p>Menús especiales para eventos sociales.</p>
+                <p>Costo: Desde $50,000 por persona</p>
+            </div>
+            <div class="servicio">
+                
+                <h3>Bufetes</h3>
+                <p>Variedad de platos para reuniones.</p>
+                <p>Costo: Desde $45,000 por persona</p>
+            </div>
+            <div class="servicio">
+                
+                <h3>Eventos Familiares</h3>
+                <p>Celebra cumpleaños y reuniones con comida deliciosa.</p>
+                <p>Costo: Desde $40,000 por persona</p>
+            </div>
+            <div class="servicio">
+               
+                <h3>Eventos Empresariales</h3>
+                <p>Opciones personalizadas para eventos corporativos.</p>
+                <p>Costo: Desde $55,000 por persona</p>
+            </div>
+        </div>
+    </section>
+<!-- 🔹 Sección de Registro -->
+<section id="registro" class="seccion">
+    <h2>Registro de Cliente</h2>
+    <form id="formRegistro">
+        <input type="text" id="nombre" placeholder="Nombre Completo" required>
+        <input type="text" id="cedula" placeholder="Cédula" required>
+        <input type="email" id="correo" placeholder="Correo Electrónico" required>
+        <button type="submit">Registrar</button>
+    </form>
+</section>
+
+</body>
+</html>
+    <!-- 🔹 Sección de Cotización -->
+    <section id="cotizar" class="seccion">
+        <h2>Cotizar Pedido</h2>
+        <form id="formCotizar">
+            <label for="tipoCliente">Tipo de Cliente:</label>
+            <select id="tipoCliente">
+                <option value="nuevo">Nuevo</option>
+                <option value="casual">Casual</option>
+                <option value="permanente">Permanente</option>
+            </select>
+
+            <label for="monto">Monto de Compra (COP):</label>
+            <input type="number" id="monto" placeholder="Ingrese el monto" required>
+
+            <label for="metodoPedido">Método de Pedido:</label>
+            <select id="metodoPedido">
+                <option value="presencial">Presencial</option>
+                <option value="domicilio">Domicilio (+2%)</option>
+            </select>
+
+            <label>
+                <input type="checkbox" id="credito"> Cliente Permanente con Crédito
+            </label>
+
+            <button type="submit">Calcular</button>
+        </form>
+        <p id="resultado"></p>
+    </section>
+
+    <!-- 🔹 Sección de Contacto -->
+<section id="contacto" class="seccion">
+    <h2>Contacto</h2>
+
+    <div class="info-contacto">
+        <div class="contacto-detalle">
+            <h3>Ubicación</h3>
+            <p>Carrera 15 #45-67, Bogotá, Colombia</p>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.5030189370553!2d-74.065450684824!3d4.679988396604816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a38b7e3b8e3%3A0xf02b6eae6fdf6a3!2sBogotá%2C%20Colombia!5e0!3m2!1ses!2sco!4v1617875637034!5m2!1ses!2sco" 
+                width="100%" 
+                height="250" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+
+        <div class="contacto-detalle">
+            <h3>Teléfono</h3>
+            <p>📞 +57 310 123 4567</p>
+        </div>
+
+        <div class="contacto-detalle">
+            <h3>Correo Electrónico</h3>
+            <p>📧 contacto@mydelights.com</p>
+        </div>
+    </div>
+
+    <h3>Envíanos un mensaje</h3>
+    <form id="formContacto">
+        <input type="text" id="nombreContacto" placeholder="Tu Nombre" required>
+        <input type="email" id="emailContacto" placeholder="Tu Correo Electrónico" required>
+        <textarea id="mensajeContacto" placeholder="Escribe tu mensaje..." required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <p id="mensajeConfirmacion"></p>
+</section>
