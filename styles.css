@@ -263,3 +263,65 @@ body {
     margin-top: 15px;
     font-weight: bold;
 }
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Asegurar que las imágenes no sean más grandes que su contenedor */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 📱 Estilos para pantallas pequeñas (Móviles) */
+@media screen and (max-width: 768px) {
+    /* Ajustar el menú */
+    .menu-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .menu-nav button {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    /* Hacer que las secciones ocupen todo el ancho */
+    .seccion {
+        padding: 10px;
+    }
+
+    /* Asegurar que el menú de platos se vea bien */
+    .platos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plato {
+        width: 90%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    /* Hacer que el formulario de cotización sea más amigable */
+    #formCotizar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #formCotizar input, #formCotizar select, #formCotizar button {
+        width: 100%;
+        max-width: 300px;
+        padding: 10px;
+        margin: 5px 0;
+    }
+}
